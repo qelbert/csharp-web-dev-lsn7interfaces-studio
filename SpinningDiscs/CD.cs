@@ -37,17 +37,22 @@ namespace SpinningDiscs
 
         public void StoreData()
         {
-
+            Console.WriteLine("A CD can store 700MB of data.");
         }
 
         public void ReadData()
         {
-
+            Console.WriteLine("Most CDs can be played on a DVD player.");
         }
 
-        public void RewriteData()
-        {
+        //public void RewriteData()
+        //{
 
+        //}
+
+        public void WriteData()
+        {
+            Console.WriteLine("A CD can have data written on at at the speed of 1.229 Mbit/s");
         }
 
 

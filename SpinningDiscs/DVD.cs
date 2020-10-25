@@ -35,17 +35,17 @@ namespace SpinningDiscs
 
         public void StoreData()
         {
-
+            Console.WriteLine("A DVD can store 4.7 GB of data.");
         }
 
         public void ReadData()
         {
-
+            Console.WriteLine("A DVD cannot be played on an audio player.");
         }
 
-        public void RewriteData()
+        public void WriteData()
         {
-
+            Console.WriteLine("A DVD can have data written on at at the speed of 11.080 Mbit/s");
         }
         // group files by category (film, extras, other) (interface)
         // store gui for menu ("play film") (interface)

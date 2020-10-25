@@ -25,24 +25,19 @@ namespace SpinningDiscs
         //    Contents = contents;
         //}
 
-        public void write() 
-        { 
-        
-        }
-
-        public void reportProperties()
+kl        public void reportProperties()
         {
             Console.WriteLine(name + "\n" + storageCapacity + "\n" + contents + "\n" + discType);
         }
 
         public void eject()
         {
-
+            Console.WriteLine("Eject pushes the disck out from the player.");
         }
 
         public void skipFile()
         {
-
+            Console.WriteLine("Skip File forwards to the next item.");
         }
     }
 }

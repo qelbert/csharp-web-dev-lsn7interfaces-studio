@@ -15,7 +15,7 @@ namespace SpinningDiscs
         // CD's and DVD's store similar data but have different capacities
         void ReadData();
         // DVDs can store films and must be played on a dvd player vs a cd player
-        void RewriteData();
-
+        //void RewriteData();
+        void WriteData();
     }
 }
